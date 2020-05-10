@@ -1,0 +1,12 @@
+const DEFAULT_INPUT_DELAY_SLOW = 200;
+const DEFAULT_TIMEOUT = 60 * 1000;
+const DEFAULT_VIEWPORT = {
+  width: 1280,
+  height: 800,
+};
+
+module.exports = {
+  DEFAULT_INPUT_DELAY_SLOW,
+  DEFAULT_TIMEOUT,
+  DEFAULT_VIEWPORT,
+};

@@ -1,0 +1,34 @@
+{
+  "name": "cucumber-puppeteer-example",
+  "version": "1.0.0",
+  "description": "Integration testing example for the pptr.dev website.",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "cucumber-js features --tags 'not @ignore'",
+    "test": "NODE_ENV=development npm run cucumber",
+    "test:chromium": "NODE_ENV=development HEADLESS=false npm run cucumber"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlampedx/cucumber-puppeteer-example.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Cucumber",
+    "Puppeteer",
+    "integration",
+    "testing",
+    "JavaScript",
+    "Chrome"
+  ],
+  "author": "Michael Lampe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlampedx/cucumber-puppeteer-example/issues"
+  },
+  "homepage": "https://github.com/mlampedx/cucumber-puppeteer-example#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "puppeteer": "^3.0.4"
+  }
+}
